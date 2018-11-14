@@ -31,7 +31,7 @@ Then reboot your system to finish the installation, and check the version of you
 
 `nvcc --version`
 
-Finally, run [gpu_example.py](https://github.com/0b10010010/CUDAKalmanFilter/blob/master/test/gpu_example.py) python program to test your installation which is in [test](https://github.com/0b10010010/CUDAKalmanFilter/blob/master/test) folder to compare the performance between your CPU and GPU.
+Finally, run `gpu_example.py` python program to test your installation which is in [test](https://github.com/0b10010010/CUDAKalmanFilter/blob/master/test) folder to compare the performance between your CPU and GPU.
 <sup>&dagger;: This code was acquired from NVIDIA's [webpage](https://developer.nvidia.com/how-to-cuda-python).</sup><br>
 
 My machine's performance comparison with gpu_example.py:
