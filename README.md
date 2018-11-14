@@ -14,7 +14,7 @@ Before getting started with CUDA, make sure your graphics card is [CUDA-capable]
 
 ## Installation Instructions
 
-At the time of my initial installtion, [CUDA 10.0](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1804&target_type=deblocal) was the most recent version. Make sure to choose the right operating system, distro and version if using Linux, and installer type of your choice. I downloaded deb(network) file and used the following commends:
+At the time of my initial installtion, [CUDA 10.0](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1804&target_type=debnetwork) was the most recent version. Make sure to choose the right operating system, distro and version if using Linux, and installer type of your choice. I downloaded deb(network) file and used the following commends:
 ```
 sudo dpkg -i cuda-repo-ubuntu1804_10.0.130-1_amd64.deb
 sudo apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/7fa2af80.pub
