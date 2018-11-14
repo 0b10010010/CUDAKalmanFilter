@@ -24,5 +24,6 @@ sudo apt-get install cuda
 
 For any trouble shooting or more information, this detailed [documentation](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html) might be helpful with installing CUDA on your machine.
 
-After you have successfully installed CUDA, run gpu_example.py python program to test your installation.
-This code was acquired from NVIDIA's [webpage](https://developer.nvidia.com/how-to-cuda-python).
+After you have successfully installed CUDA, run [gpu_example.py](https://github.com/0b10010010/CUDAKalmanFilter/blob/master/test/gpu_example.py) python program to test your installation which is in test folder.
+
+<sup>&dagger;: This code was acquired from NVIDIA's [webpage](https://developer.nvidia.com/how-to-cuda-python).</sup><br>
