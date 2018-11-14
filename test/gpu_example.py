@@ -15,7 +15,7 @@ import numpy as np
 from numba import vectorize
 
 
-N = 1000000
+N = 100000000
 
 
 def check_answer(ans, A, B, C):
