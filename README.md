@@ -28,13 +28,11 @@ export LD_LIBRARY_PATH=/usr/local/cuda-10.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRAR
 export CUDA_HOME=/usr/local/cuda-10.0
 ```
 Then reboot your system to finish the installation, and check the version of your installation:
-```
-nvcc --version
-```
+`nvcc --version`
 Finally, run [gpu_example.py](https://github.com/0b10010010/CUDAKalmanFilter/blob/master/test/gpu_example.py) python program to test your installation which is in test folder to compare the performance between your CPU and GPU.
 <sup>&dagger;: This code was acquired from NVIDIA's [webpage](https://developer.nvidia.com/how-to-cuda-python).</sup><br>
 
-My machine's performance comparison for gpu_example.py:
+My machine's performance comparison with gpu_example.py:
 ```console
 alexk@AW15R2:~/Desktop/KSU_ME/CUDAKalmanFilter/test$ python gpu_example.py
 CPU function took 22.761210 seconds.
