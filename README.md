@@ -6,7 +6,10 @@
 **[Installation Instructions](#installation-instructions)**<br>
 
 ## Getting Started
-writed something briefly about what KF is.
+write something about how gpu's have more threads compared to cpu's and how this advantage can accelerate the processing time of complex multi-dimensional arrays. 
+write something briefly about what KF is.
+
+For now, I would like to explore the possibilities of deploying multiple instances of Kalman Filtering for a groupd of simulated signals. With KF tracking multiple signals simultaneously, it should show the benfits of using GPU rather than CPU, given the intensity of array calculations.
 
 ## Prerequisites
 
