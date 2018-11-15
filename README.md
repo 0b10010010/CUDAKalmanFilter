@@ -40,8 +40,8 @@ Finally, run `gpu_example.py` python program to test your installation which is 
 My machine's performance comparison with gpu_example.py:
 ```console
 alexk@AW15R2:~/Desktop/KSU_ME/CUDAKalmanFilter/test$ python gpu_example.py
-CPU function took 22.761210 seconds.
-GPU function took 1.371736 seconds.
+VectorAdd_CPU took 8.951272 seconds
+VectorAdd_GPU took 0.283154 seconds
 ```
 
 For any trouble shooting or more information, this detailed [documentation](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html) might be helpful with installing CUDA on your machine.
